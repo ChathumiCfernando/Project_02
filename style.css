@@ -439,7 +439,3 @@ body {
   @media (max-height:800px) {
     
   } */
-footer {
-  color: red;
-  position: fixed;
-}
