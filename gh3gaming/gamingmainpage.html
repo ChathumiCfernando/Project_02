@@ -10,8 +10,8 @@
     <header class="navigationBar">
       <a href="/main.html"><img src="/Images/gh3.png" alt="" /></a>
       <ul>
-        <li><a href="mainpage.html" id="active">Home</a></li>
-        <li><a href="#Store">Store</a></li>
+        <li><a href="gamingmainpage.html" id="active">Home</a></li>
+        <li><a href="gamingstore.html">Store</a></li>
         <li><a href="#News">News</a></li>
         <li><a href="#Members">Members</a></li>
         <li><a href="#AboutUs">About Us</a></li>
@@ -22,11 +22,10 @@
     <!-- <video id="gamersmainbg" class="bggamingmainpage" autoplay muted loop>
       <source src="/videos/bgVideoforGamingMain.mp4" type="video/mp4" />
     </video> -->
-
     <div class="slideshow-container">
       <!-- Full-width images with number and caption text -->
       <div class="mySlides fade" id="slide01">
-        <div class="text">1 / 4 Latest Design</div>
+        <div class="text">1 / 4 Latest Design.</div>
       </div>
 
       <div class="mySlides fade" id="slide02">
@@ -38,7 +37,7 @@
       </div>
 
       <div class="mySlides fade" id="slide04">
-        <div class="text">4 / 4 Caption Three</div>
+        <div class="text">4 / 4 Caption Four</div>
       </div>
 
       <!-- Next and previous buttons -->
@@ -46,23 +45,62 @@
       <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     <br />
-
-    <div class="newsBox">
-      <center>
-        <a href="#News1"><div class="news01"></div></a>
-        <a href="#News2"><div class="news02"></div></a>
-        <a href="#News3"><div class="news03"></div></a>
-        <a href="#News4"><div class="news04"></div></a>
-      </center>
+    <div class="block-01">
+      <div class="newsBox">
+        <center>
+          <a href="#News1"><div class="news01"></div></a>
+          <a href="#News2"><div class="news02"></div></a>
+          <a href="#News3"><div class="news03"></div></a>
+          <a href="#News4"><div class="news04"></div></a>
+        </center>
+      </div>
+      <!-- The dots/circles -->
+      <div style="text-align: center" class="dots">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+      <div class="aboutgh3gaming">
+        <h3>WHAT IS GH3 GAMING?</h3>
+        <p>
+          We created Team GH3 in 2019 and when that time we are only Gaming
+          Team.But now we have two different paths.<br />
+          GH3 GAMING one of it and We are playing latest released games.
+        </p>
+      </div>
     </div>
 
-    <!-- The dots/circles -->
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-    </div>
+    <!-- Footer -->
+    <footer class="footer-main">
+      <div class="footer-top"><img src="/images/GH3.png" alt="logo" /></div>
+      <div class="footer-left">
+        <h2>About the company</h2>
+        <p>
+          <span
+            >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab,
+            suscipit iste sed, ratione eveniet nostrum beatae quasi nobis
+            sint</span
+          >
+        </p>
+      </div>
+
+      <div class="footer-center">
+        <h3>GH3 GAMING</h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#store">Store</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#members">Members</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+          <li><a href="#contactus">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-right">
+        <p><span>No.18 Podusewa Mawatha, Walana, Panadura</span></p>
+      </div>
+    </footer>
     <script src="/script.js"></script>
   </body>
 </html>
