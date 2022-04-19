@@ -83,19 +83,19 @@ body {
   }
   
   #slide01 {
-    background-image: url(../Images/newsBox/tshirt.png);
+    background-image: url(../../../../Images/newsBox/tshirt.png);
   }
   
   #slide02 {
-    background-image: url(../Images/newsBox/02.jpg);
+    background-image: url(../../../../Images/newsBox/02.jpg);
   }
   
   #slide03 {
-    background-image: url(../Images/newsBox/03.jpg);
+    background-image: url(../../../../Images/newsBox/03.jpg);
   }
   
   #slide04 {
-    background-image: url(../Images/newsBox/04.jpg);
+    background-image: url(../../../../Images/newsBox/04.jpg);
   }
   
   /* Next & previous buttons */
@@ -183,19 +183,19 @@ body {
   }
   
   .news01 {
-    background-image: url(../Images/newsbox/tshirt.png);
+    background-image: url(../../../../images/newsbox/tshirt.png);
     background-position: center;
   }
   .news02 {
-    background-image: url(../Images/newsbox/02.jpg);
+    background-image: url(../../../../images/newsbox/02.jpg);
     background-position: center;
   }
   .news03 {
-    background-image: url(../Images/newsbox/03.jpg);
+    background-image: url(../../../../images/newsbox/03.jpg);
     background-position: center;
   }
   .news04 {
-    background-image: url(../Images/newsbox/04.jpg);
+    background-image: url(../../../../images/newsbox/04.jpg);
     background-position: center;
   }
   
