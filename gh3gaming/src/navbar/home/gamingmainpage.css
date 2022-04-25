@@ -159,7 +159,7 @@ body {
   
 /* news box */
   
-/* Navigation Bar for gaming site*/
+/* Navigation Bar */
   
 .navigationBar {
   display: flex;
@@ -249,129 +249,9 @@ body {
     width: 33px;
   }
 }
+
+/* Navigation Bar */
   
-
-/*GH3 Developers Page*/
-
-.left-navbar{
-  overflow: hidden;
-}
-
-.left-navbar img{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
-  width: 60%;
-  border-radius: 50%;
-  border: 7px solid rgb(52,58,64);
-}
-
-.left-navbar h1{
-  color: white;
-  text-align: center;
-  font-size: 1.5vw;
-  margin-bottom: 7rem;
-}
-
-.left-navbar ul{
-  padding: 0;
-}
-
-.left-navbar li{
-  color: white;
-  list-style: none;
-  font-size: 1.2vw;
-  text-align: center;
-  padding-bottom: 1.4rem;
-}
-
-.left-navbar li:hover{
-  color: rgb(24, 108, 197);
-}
-
-.left-navbar a{
-  text-decoration: none;
-}
-
-.gh3developers_body{
-  background-color: black;
-}
-
-.gh3developers_body img{
-  position: relative;
-  height: 100%;
-  width: 82%;
-  display: block;
-  margin-left: auto;
-  opacity: 0.4;
-}
-
-.centered-text{
-  font-size: 1.3vw;
-  position: absolute;
-  top: 40%;
-  left: 59%;
-  color: white;
-  transform: translate(-50%,-50%);
-}
-
-.container_typing{
-  padding-top: 10rem;
-  font-size: 1.6vw;
-  position: absolute;
-  top: 40%;
-  left: 59%;
-  color: white;
-  transform: translate(-50%,-50%);
-}
-
-.gh3_dev_type{
-  margin: 0;
-  width: 100%;
-  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 0.2em solid;
-  font-size: 3em;
-
-}
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-.container_contact_btn{
-  padding-top: 22rem;
-  font-size: 1.6vw;
-  position: absolute;
-  top: 40%;
-  left: 59%;
-  transform: translate(-50%,-50%);
-}
-
-.contact_btn{
-  padding: 0.8rem 2.5rem;
-  font-size: 1vw;
-  font-weight: bold;
-  border-radius: 25vw;
-  background-color: transparent;
-  border: 2px solid rgb(24, 108, 197);
-  color: rgb(24, 108, 197);
-  cursor: pointer;
-  transition-duration: 0.4s;
-}
-
-.contact_btn:hover{
-  background-color: rgb(24, 108, 197);
-  color: white;
-}
 
 /* block-01 */
 
@@ -467,4 +347,6 @@ body {
   display: inline-block;
   vertical-align: top;
 }
+
+
 /* footer */

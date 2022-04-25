@@ -1,4 +1,4 @@
-/* Navigation Bar for gaming site*/
+/* Navigation Bar */
   
 .navigationBar {
     display: flex;
@@ -89,6 +89,8 @@
     }
 }
 
+/* Navigation Bar */
+
 
 /* footer */
 
@@ -99,54 +101,129 @@
 }
    
 .footer-top {
-     width: 100vw;
-     text-align: center;
+    width: 100vw;
+    text-align: center;
 }
    
 .footer-top img{
-     margin: 10px 0 0 3vw;
-     width: 70px;
+    margin: 10px 0 0 3vw;
+    width: 70px;
 }
    
 .footer-left {
-     width: 30vw;
-     display: inline-block;
-     vertical-align: top;
+    width: 30vw;
+    display: inline-block;
+    vertical-align: top;
 }
    
 .footer-center{
-     width: 30vw;
-     display: inline-block;
+    width: 30vw;
+    display: inline-block;
 }
    
 .footer-center h3{
-     margin-left: 30px;
-     color: rgb(173, 178, 187);
+    margin-left: 30px;
+    color: rgb(173, 178, 187);
 }
    
 .footer-center ul {
-     list-style-type: none;
-     padding-inline-start: 0px;
-     margin-left: 3.5vw;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin-left: 3.5vw;
 }
    
 .footer-center ul li a{
-     text-decoration: none;
-     margin-bottom: 10px;
-     text-align: center;
-     color: rgb(121, 123, 126);
+    text-decoration: none;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(121, 123, 126);
 }
    
 .footer-center ul li a:hover {
-     color: rgb(135, 248, 246);
+    color: rgb(135, 248, 246);
 }
    
 .footer-right {
-     margin-right: 10px;
-     width: 30vw;
-     display: inline-block;
-     vertical-align: top;
+    margin-right: 10px;
+    width: 30vw;
+    display: inline-block;
+    vertical-align: top;
 }
 
 /* footer */
-  
+
+
+/* block-01 */
+
+.block-01 {
+    width: 100vw;
+    height: 25vh;
+    text-align: center;
+    background-image: url(images/block-01-bgimage.jpg);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+
+.block-01 h4 {
+    margin: 0;
+    padding: 8vh;
+    color: rgb(249, 216, 173);
+    font-size: 28px;
+}
+
+/* block-01 */
+
+/* block-02 */
+
+.block-02{
+    width: 100vw;
+    text-align: left;
+    display: flex;
+}
+
+
+.block-02-leftside {
+    display: inline-block;
+    width: 49vw;
+}
+.block-02-leftside h3{
+    color: rgb(51, 132, 152);
+    font-size: 24px; 
+    margin: 10vw 0 0 5vw;
+}
+
+.block-02-leftside p {
+    margin: 2vw 0 0 5vw;
+    color: rgb(55, 48, 49);
+}
+
+.block-02-rightside {
+    display: inline-block;
+    width: 49vw;
+    text-align: right;
+    margin: 0;
+}
+
+.block-02-rightside img {
+    width: 40vw;
+    margin-top: 2vw;
+
+}
+
+@media screen and (max-width: 850px) {
+    p {
+        font-size: 14px;
+    }
+
+    .block-02-leftside h3 {
+        font-size: 20px;
+    }
+
+    .block-02-rightside img {
+        margin-top: 6vw;
+    }
+}
+
+/* block-02 */
