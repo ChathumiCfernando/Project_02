@@ -3,296 +3,252 @@ body {
     font-family: "Sora", sans-serif;
   }
   
-  /* main page */
-  .main {
-    background-color: rgba(0, 0, 0, 0.8);
-  }
+/* gaming main page */
   
-  .headerBG {
-    z-index: -2;
-  }
-  
-  .gh3gamers {
-    width: 49.7%;
-    height: 100%;
-    float: left;
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
-  .bgvideomain {
-    position: fixed;
-    height: 100vh;
-    width: 49.6vw;
-    object-fit: cover;
-    z-index: -1;
-    cursor: pointer;
-  }
-  
-  .gh3developers {
-    width: 49.7%;
-    height: 100%;
-    float: right;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .gh3logos {
-    width: 15vw;
-    margin-top: 50vh;
-  }
-  
-  .mainWebsites {
-    text-decoration: none;
-    font-size: 1vw;
-    color: rgb(137, 212, 224);
-  }
-  
-  /* main page */
-  
-  /* gaming main page */
-  
-  .bggamingmainpage {
-    position: absolute;
-    width: 100vw;
-    object-fit: cover;
-    z-index: -1;
-    cursor: pointer;
-  }
-  
-  /* slides show */
-  
-  * {box-sizing:border-box}
-  
-  /* Slideshow container */
-  .slideshow-container {
-    max-width: 100vw;
-    max-height: 80vh;
-    position: relative;
-    margin: auto;
-    z-index: 10;
-    background-color:rgb(236, 236, 238);
-  }
-  
-  /* Hide the images by default */
-  .mySlides {
-    margin: 0;
-    display: none;
-    width: 100vw;
-    height: 40vw;
-    background-size: cover;
-    background-position: center;
-  }
-  
-  #slide01 {
-    background-image: url(../../../../Images/newsBox/tshirt.png);
-  }
-  
-  #slide02 {
-    background-image: url(../../../../Images/newsBox/02.jpg);
-  }
-  
-  #slide03 {
-    background-image: url(../../../../Images/newsBox/03.jpg);
-  }
-  
-  #slide04 {
-    background-image: url(../../../../Images/newsBox/04.jpg);
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    margin-top: -22px;
-    padding: 16px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-  }
-  
-  /* Position the "next button" to the right */
-  .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
-  }
-  
-  /* On hover, add a black background color with a little bit see-through */
-  .prev:hover, .next:hover {
-    background-color: rgba(0,0,0,0.8);
-  }
-  
-  
-  /* Caption text */
-  .text {
-    color: rgb(18, 19, 19);
-    font-size: 13px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
-  /* The dots/bullets/indicators */
-  .dot {
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 5px 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  
-  .active, .dot:hover {
-    background-color: #717171;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
-  
-  /* slides show */
-  
-  /* news box */
-  
-  .newsBox {
-    width: 100vw;
-    margin-top: -6vw;
-    z-index: 20;
-    position: relative;
-  }
-  
-  .newsBox a div {
-    width: 17.28vw;
-    height: 9.72vw;
-    display: inline-block;
-    background-size: cover;
-    margin-right: 6px;
+.bggamingmainpage {
+  position: absolute;
+  width: 100vw;
+  object-fit: cover;
+  z-index: -1;
+  cursor: pointer;
+}
     
-  }
+/* gaming main page */
   
-  .news01 {
-    background-image: url(../../../../images/newsbox/tshirt.png);
-    background-position: center;
-  }
-  .news02 {
-    background-image: url(../../../../images/newsbox/02.jpg);
-    background-position: center;
-  }
-  .news03 {
-    background-image: url(../../../../images/newsbox/03.jpg);
-    background-position: center;
-  }
-  .news04 {
-    background-image: url(../../../../images/newsbox/04.jpg);
-    background-position: center;
-  }
+/* slides show */
+
+* {box-sizing:border-box}
+  
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100vw;
+  max-height: 80vh;
+  position: relative;
+  margin: auto;
+  z-index: 10;
+  background-color:rgb(236, 236, 238);
+}
+  
+/* Hide the images by default */
+.mySlides {
+  margin: 0;
+  display: none;
+  width: 100vw;
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+}
+  
+#slide01 {
+  background-image: url(../../../../Images/newsBox/tshirt.png);
+}
+  
+#slide02 {
+  background-image: url(../../../../Images/newsBox/02.jpg);
+}
+  
+#slide03 {
+  background-image: url(../../../../Images/newsBox/03.jpg);
+}
+  
+#slide04 {
+  background-image: url(../../../../Images/newsBox/04.jpg);
+}
+  
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+  
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+  
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
   
   
-  /* news box */
+/* Caption text */
+.text {
+  color: rgb(18, 19, 19);
+  font-size: 13px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
   
-  /* Navigation Bar for gaming site*/
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 5px 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
   
-  .navigationBar {
-    display: flex;
-    align-items: center;
-    overflow: hidden;
-    width: 100vw;
-    background-color: rgba(0, 0, 0, 0.9);
-    ;
+.active, .dot:hover {
+  background-color: #717171;
+}
+  
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+  
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+  
+/* slides show */
+  
+/* news box */
+  
+.newsBox {
+  width: 100vw;
+  margin-top: -6vw;
+  z-index: 20;
+  position: relative;
+}
+  
+.newsBox a div {
+  width: 17.28vw;
+  height: 9.72vw;
+  display: inline-block;
+  background-size: cover;
+  margin-right: 6px;
+    
+}
+  
+.news01 {
+  background-image: url(../../../../images/newsbox/tshirt.png);
+  background-position: center;
+}
+.news02 {
+  background-image: url(../../../../images/newsbox/02.jpg);
+  background-position: center;
+}
+.news03 {
+  background-image: url(../../../../images/newsbox/03.jpg);
+  background-position: center;
+}
+.news04 {
+  background-image: url(../../../../images/newsbox/04.jpg);
+  background-position: center;
+}
+  
+  
+/* news box */
+  
+/* Navigation Bar for gaming site*/
+  
+.navigationBar {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+  
+.navigationBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+}
+  
+.navigationBar li {
+  display: inline;
+}
+  
+.navigationBar img {
+  width: 50px;
+  padding: 5px 0 5px 10px;
+}
+  
+.navigationBar ul li a {
+  color: rgb(101, 255, 252);
+  text-decoration: none;
+  padding: 20px 8px 20px 8px;
+}
+  
+.navigationBar ul li a:hover {
+  background-color: rgba(71, 69, 69, 0.5);
+  color: rgb(210, 247, 246);
+  border-radius: 4px;
+}
+  
+#active {
+  background-color: rgb(135, 248, 246);
+  color: rgb(38, 39, 39);
+  border-radius: 4px;
+}
+  
+@media screen and (max-width: 900px) {
+  .navigationBar ul li {
+    font-size: 15px;
   }
-  
-  .navigationBar ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 5px;
-  }
-  
-  .navigationBar li {
-    display: inline;
-  }
-  
-  .navigationBar img {
-    width: 50px;
-    padding: 5px 0 5px 10px;
-  }
-  
   .navigationBar ul li a {
-    color: rgb(101, 255, 252);
-    text-decoration: none;
-    padding: 18px 8px 18px 8px;
+    padding: 14px 6px 14px 6px;
   }
+  .navigationBar img {
+    width: 45px;
+  }
+}
   
-  .navigationBar ul li a:hover {
-    background-color: rgba(71, 69, 69, 0.5);
-    color: rgb(210, 247, 246);
-    border-radius: 4px;
+@media screen and (max-width: 600px) {
+  .navigationBar ul li {
+    font-size: 13px;
   }
+  .navigationBar ul li a {
+    padding: 10px 4px 10px 4px;
+  }
+  .navigationBar img {
+    width: 40px;
+  }
+}
   
-  #active {
-    background-color: rgb(135, 248, 246);
-    color: rgb(38, 39, 39);
-    border-radius: 4px;
+@media screen and (max-width: 450px) {
+  .navigationBar ul li {
+    font-size: 11px;
   }
+  .navigationBar ul li a {
+    padding: 9px 3px 9px 3px;
+  }
+  .navigationBar img {
+    width: 35px;
+  }
+}
   
-  @media screen and (max-width: 900px) {
-    .navigationBar ul li {
-      font-size: 15px;
-    }
-    .navigationBar ul li a {
-      padding: 14px 6px 14px 6px;
-    }
-    .navigationBar img {
-      width: 45px;
-    }
+@media screen and (max-width: 380px) {
+  .navigationBar ul li {
+    font-size: 10px;
   }
-  
-  @media screen and (max-width: 600px) {
-    .navigationBar ul li {
-      font-size: 13px;
-    }
-    .navigationBar ul li a {
-      padding: 10px 4px 10px 4px;
-    }
-    .navigationBar img {
-      width: 40px;
-    }
+  .navigationBar ul li a {
+    padding: 8px 3px 8px 3px;
   }
-  
-  @media screen and (max-width: 450px) {
-    .navigationBar ul li {
-      font-size: 11px;
-    }
-    .navigationBar ul li a {
-      padding: 9px 3px 9px 3px;
-    }
-    .navigationBar img {
-      width: 35px;
-    }
+  .navigationBar img {
+    width: 33px;
   }
-  
-  @media screen and (max-width: 380px) {
-    .navigationBar ul li {
-      font-size: 10px;
-    }
-    .navigationBar ul li a {
-      padding: 8px 3px 8px 3px;
-    }
-    .navigationBar img {
-      width: 33px;
-    }
-  }
+}
   
 
 /*GH3 Developers Page*/
@@ -511,9 +467,4 @@ body {
   display: inline-block;
   vertical-align: top;
 }
-
-
-
-
-
 /* footer */

@@ -1,0 +1,152 @@
+/* Navigation Bar for gaming site*/
+  
+.navigationBar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+  
+.navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+  
+.navigationBar li {
+    display: inline;
+}
+  
+.navigationBar img {
+    width: 50px;
+    padding: 5px 0 5px 10px;
+}
+  
+.navigationBar ul li a {
+    color: rgb(101, 255, 252);
+    text-decoration: none;
+    padding: 20px 8px 20px 8px;
+}
+  
+.navigationBar ul li a:hover {
+    background-color: rgba(71, 69, 69, 0.5);
+    color: rgb(210, 247, 246);
+    border-radius: 4px;
+}
+  
+#active {
+    background-color: rgb(135, 248, 246);
+    color: rgb(38, 39, 39);
+    border-radius: 4px;
+}
+  
+@media screen and (max-width: 900px) {
+    .navigationBar ul li {
+      font-size: 15px;
+    }
+    .navigationBar ul li a {
+      padding: 14px 6px 14px 6px;
+    }
+    .navigationBar img {
+      width: 45px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .navigationBar ul li {
+      font-size: 13px;
+    }
+    .navigationBar ul li a {
+      padding: 10px 4px 10px 4px;
+    }
+    .navigationBar img {
+      width: 40px;
+    }
+}
+  
+@media screen and (max-width: 450px) {
+    .navigationBar ul li {
+      font-size: 11px;
+    }
+    .navigationBar ul li a {
+      padding: 9px 3px 9px 3px;
+    }
+    .navigationBar img {
+      width: 35px;
+    }
+}
+  
+@media screen and (max-width: 380px) {
+    .navigationBar ul li {
+      font-size: 10px;
+    }
+    .navigationBar ul li a {
+      padding: 8px 3px 8px 3px;
+    }
+    .navigationBar img {
+      width: 33px;
+    }
+}
+
+
+/* footer */
+
+.footer-main {
+    width: 100vw;
+    background-color:rgb(0, 0, 0,0.9);
+    text-align: center;
+}
+   
+.footer-top {
+     width: 100vw;
+     text-align: center;
+}
+   
+.footer-top img{
+     margin: 10px 0 0 3vw;
+     width: 70px;
+}
+   
+.footer-left {
+     width: 30vw;
+     display: inline-block;
+     vertical-align: top;
+}
+   
+.footer-center{
+     width: 30vw;
+     display: inline-block;
+}
+   
+.footer-center h3{
+     margin-left: 30px;
+     color: rgb(173, 178, 187);
+}
+   
+.footer-center ul {
+     list-style-type: none;
+     padding-inline-start: 0px;
+     margin-left: 3.5vw;
+}
+   
+.footer-center ul li a{
+     text-decoration: none;
+     margin-bottom: 10px;
+     text-align: center;
+     color: rgb(121, 123, 126);
+}
+   
+.footer-center ul li a:hover {
+     color: rgb(135, 248, 246);
+}
+   
+.footer-right {
+     margin-right: 10px;
+     width: 30vw;
+     display: inline-block;
+     vertical-align: top;
+}
+
+/* footer */
+  
