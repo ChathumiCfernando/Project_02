@@ -46,7 +46,7 @@
       font-size: 15px;
     }
     .navigationBar ul li a {
-      padding: 14px 6px 14px 6px;
+      padding: 18px 6px 18px 6px;
     }
     .navigationBar img {
       width: 45px;
@@ -58,7 +58,7 @@
       font-size: 13px;
     }
     .navigationBar ul li a {
-      padding: 10px 4px 10px 4px;
+      padding: 16px 4px 16px 4px;
     }
     .navigationBar img {
       width: 40px;
@@ -70,7 +70,7 @@
       font-size: 11px;
     }
     .navigationBar ul li a {
-      padding: 9px 3px 9px 3px;
+      padding: 13px 3px 13px 3px;
     }
     .navigationBar img {
       width: 35px;
@@ -82,7 +82,7 @@
       font-size: 10px;
     }
     .navigationBar ul li a {
-      padding: 8px 3px 8px 3px;
+      padding: 10px 3px 10px 3px;
     }
     .navigationBar img {
       width: 33px;
@@ -153,6 +153,10 @@
 /* footer */
 
 
+h3 {
+    font-size: 24px; 
+}
+
 /* block-01 */
 
 .block-01 {
@@ -166,7 +170,7 @@
 }
 
 
-.block-01 h4 {
+.block-01 h2 {
     margin: 0;
     padding: 8vh;
     color: rgb(249, 216, 173);
@@ -190,7 +194,6 @@
 }
 .block-02-leftside h3{
     color: rgb(51, 132, 152);
-    font-size: 24px; 
     margin: 10vw 0 0 5vw;
 }
 
@@ -217,7 +220,7 @@
         font-size: 14px;
     }
 
-    .block-02-leftside h3 {
+    h3 {
         font-size: 20px;
     }
 
@@ -227,3 +230,86 @@
 }
 
 /* block-02 */
+
+
+/* block-03 */
+.block-03 {
+    text-align: center;
+}
+
+.block-03-header {
+    width: 100vw;
+    text-align: center;
+    color: rgb(242, 58, 125);
+}
+
+
+.member .avatar img{
+    width: 100px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.member .icons img {
+    width: 20px;
+}
+.member {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #e2e9ed;
+    margin: 0;
+    width: 250px;
+    
+    z-index: 0;
+    position: relative;
+    transition: 0.2s all;
+    display: inline-block;
+}
+
+.member:hover {
+    z-index: 1;
+    box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+}
+
+.member .member-details {
+    margin: 10px 0;
+}
+
+.member .member-details .title {
+    color: rgb(51, 132, 152);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin: 0;
+}
+
+.member .member-details .post {
+    font-size: 13px;
+    line-height: 2.375rem;
+    color: rgb(55, 48, 49);
+}
+
+.member .icons {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: 0.2s all;
+}
+
+.member:hover .icons {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.member .icons li {
+    display: inline-block;
+    margin: 0 10px 20px 10px;
+}
+
+.member .icons li a {
+    color: rgb(55, 48, 49);
+}
+/* block-03 */
