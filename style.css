@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Sora", sans-serif;
+    line-height: 1.5;
   }
   
   /* main page */
@@ -47,3 +48,4 @@ body {
   }
   
   /* main page */
+
