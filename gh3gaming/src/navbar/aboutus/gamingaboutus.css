@@ -362,8 +362,8 @@ h3 {
   }
   
   .footer {
-    background-color: #24262b;
-    padding: 70px 0;
+    background-color: rgb(55, 48, 49);
+    padding: 70px 0 40px 0;
   }
   
   .footer-col {
@@ -429,8 +429,20 @@ h3 {
   }
   
   .footer-col .social-links a:hover {
-    color: #24262b;
+    color: rgb(55, 48, 49);
     background-color: #ffffff;
+  }
+
+  .container-2 {
+      width: 100vw;
+      text-align: center;
+      background-color: rgb(49, 43, 44);
+      padding: 5px 0;
+  }
+
+  .container-2 p {
+    color:rgba(187, 187, 187, 0.6);
+    font-size: 13px;
   }
   
   
