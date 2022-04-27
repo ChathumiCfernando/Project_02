@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font-family: "Sora", sans-serif;
+    line-height: 1.5;
+  }
+  
+  /* main page */
+  .main {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .headerBG {
+    z-index: -2;
+  }
+  
+  .gh3gamers {
+    width: 49.7%;
+    height: 100%;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .bgvideomain {
+    position: fixed;
+    height: 100vh;
+    width: 49.6vw;
+    object-fit: cover;
+    z-index: -1;
+    cursor: pointer;
+  }
+  
+  .gh3developers {
+    width: 49.7%;
+    height: 100%;
+    float: right;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .gh3logos {
+    width: 15vw;
+    margin-top: 50vh;
+  }
+  
+  .mainWebsites {
+    text-decoration: none;
+    font-size: 1vw;
+    color: rgb(137, 212, 224);
+  }
+  
+  /* main page */
+

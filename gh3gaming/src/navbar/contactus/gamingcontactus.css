@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+  
+.navigationBar {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+  
+.navigationBar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+}
+  
+.navigationBar li {
+    display: inline;
+}
+  
+.navigationBar img {
+    width: 50px;
+    padding: 5px 0 5px 10px;
+}
+  
+.navigationBar ul li a {
+    color: rgb(101, 255, 252);
+    text-decoration: none;
+    padding: 20px 8px 20px 8px;
+}
+  
+.navigationBar ul li a:hover {
+    background-color: rgba(71, 69, 69, 0.5);
+    color: rgb(210, 247, 246);
+    border-radius: 4px;
+}
+  
+#active {
+    background-color: rgb(135, 248, 246);
+    color: rgb(38, 39, 39);
+    border-radius: 4px;
+}
+  
+@media screen and (max-width: 900px) {
+    .navigationBar ul li {
+      font-size: 15px;
+    }
+    .navigationBar ul li a {
+      padding: 18px 6px 18px 6px;
+    }
+    .navigationBar img {
+      width: 45px;
+    }
+  }
+  
+@media screen and (max-width: 600px) {
+    .navigationBar ul li {
+      font-size: 13px;
+    }
+    .navigationBar ul li a {
+      padding: 16px 4px 16px 4px;
+    }
+    .navigationBar img {
+      width: 40px;
+    }
+}
+  
+@media screen and (max-width: 450px) {
+    .navigationBar ul li {
+      font-size: 11px;
+    }
+    .navigationBar ul li a {
+      padding: 13px 3px 13px 3px;
+    }
+    .navigationBar img {
+      width: 35px;
+    }
+}
+  
+@media screen and (max-width: 380px) {
+    .navigationBar ul li {
+      font-size: 10px;
+    }
+    .navigationBar ul li a {
+      padding: 10px 3px 10px 3px;
+    }
+    .navigationBar img {
+      width: 33px;
+    }
+}
+
+/* Navigation Bar */
