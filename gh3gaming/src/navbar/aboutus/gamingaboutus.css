@@ -300,7 +300,10 @@ h3 {
     z-index: 1;
     box-shadow: 0 8px 50px rgba(0, 0, 0, 0.2);
     transform: scale(1.1);
+    
 }
+
+
 
 .member .member-details {
     margin: 10px 0;
@@ -319,6 +322,7 @@ h3 {
     line-height: 2.375rem;
     color: rgb(55, 48, 49);
 }
+
 
 .member .icons {
     margin: 0;
@@ -415,7 +419,7 @@ h3 {
   }
   
   .footer-col ul a:hover {
-    color: #ffffff;
+    color: rgb(242, 58, 125);
     padding-left: 8px;
   }
   
@@ -433,7 +437,7 @@ h3 {
   }
   
   .footer-col .social-links a:hover {
-    color: rgb(55, 48, 49);
+    color: rgb(242, 58, 125);
     background-color: #ffffff;
   }
 

@@ -160,7 +160,7 @@
 }
 
 .footer-col ul a:hover {
-  color: #ffffff;
+  color: rgb(47, 231, 228);
   padding-left: 8px;
 }
 
@@ -178,7 +178,7 @@
 }
 
 .footer-col .social-links a:hover {
-  color: rgb(44, 44, 44);
+  color: rgb(47, 231, 228);
   background-color: #ffffff;
   
 }
