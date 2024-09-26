@@ -1,0 +1,51 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Team GH3</title>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div
+      class="gh3gamers"
+      onmouseover="playGamerVideo()"
+      onmouseout="pauseGamerVideo()"
+    >
+      <a href="gh3gaming/src/navbar/home/gamingmainpage.html" class="mainWebsites">
+        <video id="gamersbg" class="bgvideomain" muted loop>
+          <source src="videos/bgvideoforgamers.mp4" type="video/mp4" />
+        </video>
+        <center>
+          <img
+            src="Images/gh3gamerslogo.png"
+            alt="GH3 Gaming logo"
+            class="gh3logos"
+          />
+          <h1>GH3 GAMING</h1>
+        </center>
+      </a>
+    </div>
+    <div
+      class="gh3developers"
+      onmouseover="playDeveloperVideo()"
+      onmouseout="pauseDeveloperVideo()"
+    >
+      <a href="gh3developers/developersmainpage.html" class="mainWebsites">
+        <video muted loop class="bgvideomain" id="developersbg">
+          <source src="videos/bgvideofordevelopers.mp4" type="video/mp4" />
+        </video>
+        <center>
+          <img
+            src="Images/gh3developerslogo.png"
+            alt="GH3 Developers logo"
+            class="gh3logos"
+          />
+
+          <h1>GH3 DEVELOPERS</h1>
+        </center>
+      </a>
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>
